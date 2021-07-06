@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bggradient"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        tools:layout_editor_absoluteX="93dp"
+        style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="308dp"
+        android:layout_height="65dp"
+        android:text="Login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="297dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Email"
+        android:textColor="@color/white"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="295dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
